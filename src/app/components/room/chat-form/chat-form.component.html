@@ -1,0 +1,15 @@
+<div class="chat-form-container">
+    <div class="input-form">
+        <input type="text"
+        [(ngModel)]="newMessage"
+        name="newMessage"
+        class="form-control"
+        placeholder="enter your message"
+        (keyup.enter)="sendMessage()"
+        >
+    </div>
+
+    <div class="btn-form">
+        <button type="button" class="btn btn-info" (click)="sendMessage()" [disabled]="newMessage == ''">Send</button>
+    </div>
+</div>

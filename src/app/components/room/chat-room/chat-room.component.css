@@ -1,0 +1,28 @@
+.room-container {
+    display: flex;
+}
+
+.user-list-wrapper {
+    flex: 2;
+    background-color: #3B6DAF;
+    min-height: calc(100vh - 56px);
+    overflow: scroll;
+}
+
+.group-content {
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-feed-wrapper {
+    flex: 10;
+    padding: 8px 25px 8px;
+    overflow: scroll;
+    height: calc(100vh - 156px);
+}
+
+.chat-form-wrapper {
+    background-color: lightgrey;
+    padding: 12px;
+}

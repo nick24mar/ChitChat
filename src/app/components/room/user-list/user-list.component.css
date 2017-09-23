@@ -1,0 +1,35 @@
+.list-wrapper {
+    margin: 0 auto;
+}
+
+.user {
+    margin: 8px 0;
+    background-color: #1e1e1e;
+    color: #f2f2f2;
+    padding: 12px 20px 12px;
+}
+
+.user-status {
+    display: flex;
+}
+
+.status-circle-online {
+    margin-top: 9px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: green;
+}
+
+.status-circle-offline {
+    margin-top: 9px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #C44040;
+}
+
+.status {
+    flex: 1;
+    padding-left: 6px;
+}

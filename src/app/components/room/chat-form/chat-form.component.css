@@ -1,0 +1,13 @@
+.chat-form-container {
+    display: flex;
+}
+
+.input-form {
+    flex: 10;
+    padding-left: 16px;
+}
+
+.btn-form {
+    flex: 1;
+    padding-left: 25px;
+}

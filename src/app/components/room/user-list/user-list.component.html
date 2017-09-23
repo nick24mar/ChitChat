@@ -1,0 +1,12 @@
+<div class="list-wrapper">
+  <div *ngFor="let user of users | async" class="user">
+    <div class="user-display-name">
+      {{user.displayName}}
+    </div>
+    <div class="user-status">
+      <div class="status-circle-online" *ngIf="user.status == 'online'"></div>
+      <div class="status-circle-offline" *ngIf="user.status == 'offline'"></div>
+      <div class="status">{{user.status}}</div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+.message {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@keyframes fade {
+   from { opacity: 0.2 }
+   to { opacity: 1 }
+
+}

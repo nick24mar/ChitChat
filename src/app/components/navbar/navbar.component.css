@@ -1,0 +1,16 @@
+.active a {
+    color: #f2f2f2;
+    border-bottom: 1px solid #CDBB79;
+}
+
+.custom-nav {
+    background-color: #06425C;
+}
+.navbar-brand, .nav-link {
+    color: #F2F2F2;
+}
+
+.user-email {
+    color: #f2f2f2;
+    padding-right: 12px;
+}

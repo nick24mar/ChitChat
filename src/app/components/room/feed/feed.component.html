@@ -1,0 +1,7 @@
+<p *ngIf="!isLoaded">Loading messages..</p>
+
+<div class="feed" *ngIf="isLoaded">
+  <div *ngFor="let message of messages | async" class="message">
+    <app-message [chatMessage]=message></app-message>
+  </div>
+</div>

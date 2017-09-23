@@ -1,0 +1,28 @@
+.messageContainer {
+    display: -webkit-flex;
+    display: flex;
+    margin: 18px 0 18px ;
+}
+
+.messageData {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    background-color: #474646;
+    color: #f2f2f2;
+}
+
+.messageData .sender {
+    font-weight: bold;
+}
+
+.messageData .time-stamp {
+    font-size: 12px;
+}
+
+.messageContent {
+    flex: 1;
+    padding: 18px;
+    background-color: #565964;
+    color: #f2f2f2;
+}
